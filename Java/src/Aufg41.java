@@ -1,4 +1,4 @@
-public class Aufg_4_1 {
+public class Aufg41 {
     private static int sum = 0;
     private static void sumOfNumbers () {
         int i=0;
