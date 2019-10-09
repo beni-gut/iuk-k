@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.Contract;
-
 /**
  * Aus einem Testprogramm wurde diese Klasse erstellt.
  *
