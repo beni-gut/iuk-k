@@ -1,5 +1,10 @@
 # Default ignored files
 
+# Ignore default folder
+Java/.idea/*
+Java/out/*
+Java/Java.iml
+
 # Ignore 4-1
 Aufg4-1/.idea/*
 Aufg4-1/out/*
