@@ -20,6 +20,11 @@ UebungTesting/.idea/*
 UebungTesting/out/*
 UebungTesting/UebungTesting.iml
 
+# Ignore 4-2
+Aufg4-2/.idea/*
+Aufg4-2/out/*
+Aufg4-2/Aufg4-2.iml
+
 # Ignore 4-3
 Aufg4-3/.idea/*
 Aufg4-3/out/*
