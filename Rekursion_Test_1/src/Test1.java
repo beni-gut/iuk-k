@@ -18,29 +18,25 @@ public class Test1 {
      * @param n die Anzahl der Hofstaeder-Zahlen
      * @return Array mit den Hofstaeder-Zahlen
      */
-    static int[] hof(int n) {
+    static int[] hofstaederZahlen(int n) {
         int[] werte = new int[n];
 
-        for(int i = 0; i<n; i++) {
-            if (n == 1) {
-                return 1;
-            } else if (n == 2) {
-                return 1;
-            } else {
-                return hof(n - hof(n - 1)) + hof(n - hof(n - 2));
-            }
+        werte[0]=1;
+        werte[1]=1;
+
+        for(int i=2; i < werte.length; i++) {
+            werte[i]=werte[i-werte[i-1]]+werte[i-werte[i-2]];
         }
 
         return werte;
     }
 
     public static void main(String[] args) {
-        int n = 10;
-        int[] werte = hof(n);
+        int n = 1000;
+        int[] werte = hofstaederZahlen(n);
         for (int i=0; i<n; i++) {
             System.out.println("hof(" + (i+1) + "): " + werte[i]);
         }
     }
-
 
 }
