@@ -10,16 +10,17 @@ public class JavaNuggets1 {
         byte h = (byte) (2 * a);
         int i = 'a' + a;
         int j = a + a;
-        System.out.println(a);
-        System.out.println(b);
+
+        System.out.println("a: " + a);
+        System.out.println("b: " + b);
         //System.out.println(c);
-        System.out.println(d);
+        System.out.println("d: " + d);
         //System.out.println(e);
         //System.out.println(f);
-        System.out.println(g);
-        System.out.println(h);
-        System.out.println(i);
-        System.out.println(j);
+        System.out.println("g: " + g);
+        System.out.println("h: " + h);
+        System.out.println("i: " + i);
+        System.out.println("j: " + j);
     }
     public static void main(String [] args) {
         showNumbers();

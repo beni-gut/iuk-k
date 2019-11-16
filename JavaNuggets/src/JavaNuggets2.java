@@ -11,12 +11,12 @@ public class JavaNuggets2 {
         float f3 = f1 + 2.0f;
         float f4 = f2 + 1.0f;
 
-        System.out.println(d3);
-        System.out.println(b1);
-        System.out.println(f1);
-        System.out.println(f2);
-        System.out.println(f3);
-        System.out.println(f4);
+        System.out.println("d3: " + d3);
+        System.out.println("b1: " + b1);
+        System.out.println("f1: " + f1);
+        System.out.println("f2: " + f2);
+        System.out.println("f3: " + f3);
+        System.out.println("f4: " + f4);
 
         BigDecimal bd1 = new BigDecimal(d1); //Exact presentation of the 0.1 double value
         BigDecimal bd2 = new BigDecimal(d2);
