@@ -1,24 +1,9 @@
 # Default ignored files
 
-# Ignore default folder
-Java/.idea/*
-Java/out/*
-Java/Java.iml
-
 # Ignore 4-1
 Aufg4-1/.idea/*
 Aufg4-1/out/*
 Aufg4-1/Aufg4-1.iml
-
-# Ignore JavaNuggets
-JavaNuggets/.idea/*
-JavaNuggets/out/*
-JavaNuggets/JavaNuggets.iml
-
-# Ignore UebungTesting
-UebungTesting/.idea/*
-UebungTesting/out/*
-UebungTesting/UebungTesting.iml
 
 # Ignore 4-2
 Aufg4-2/.idea/*
@@ -29,6 +14,28 @@ Aufg4-2/Aufg4-2.iml
 Aufg4-3/.idea/*
 Aufg4-3/out/*
 Aufg4-3/Aufg4-3.iml
+
+
+# Ignore default folder
+Java/.idea/*
+Java/out/*
+Java/Java.iml
+
+
+# Ignore JavaNuggets
+JavaNuggets/.idea/*
+JavaNuggets/out/*
+JavaNuggets/JavaNuggets.iml
+
+# Kodierrichtlinien
+Kodierrichtlinien/.idea/*
+Kodierrichtlinien/out/*
+Kodierrichtlinien/Kodierrichtlinien.iml
+
+#Komplexitaet
+Komplexitaet/.idea/*
+Komplexitaet/out/*
+Komplexitaet/Komplexitaet.iml
 
 
 # Rekursion
@@ -45,5 +52,13 @@ Rekursion_Test_1/Rekursion_Test_1.iml
 Rekursion_Test_2/.idea/*
 Rekursion_Test_2/out/*
 Rekursion_Test_2/Rekursion_Test_2.iml
+
+
+# UebungTesting
+UebungTesting/.idea/*
+UebungTesting/out/*
+UebungTesting/UebungTesting.iml
+
+
 
 
